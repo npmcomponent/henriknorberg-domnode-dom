@@ -1,0 +1,30 @@
+{
+  "name": "domnode-dom",
+  "version": "0.0.0",
+  "description": "DOMNode streams for HTMLElements",
+  "repo":"henriknorberg/domnode-dom"
+  "main": "index.js",
+  "scripts": {
+    "index.js":
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "juliangruber/stream": "*"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henriknorberg/domnode-dom.git"
+  },
+  "keywords": [
+    "domnode",
+    "htmlelement",
+    "streams",
+    "dom"
+  ],
+  "author": "Chris Dickinson",
+  "license": "MIT"
+}
