@@ -12,6 +12,6 @@
   "dependencies": {
     "juliangruber/stream": "*"
   },
-  "scripts": ["index.js"],
+  "scripts": ["index.js","lib/index.js", "lib/writeable.js", "lib/readable.js"],
   "license": "MIT"
 }
