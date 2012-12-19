@@ -3,11 +3,11 @@
 Turn DOM elements into readable / writable streams.
 
 Designed for use with [Browserify](https://github.com/substack/browserify)
-, [domnode](https://github.com/maxogden/domnode) or [component](https://github.com/component).
+and [domnode](https://github.com/maxogden/domnode) or [component](https://github.com/component).
 
 ````javascript
 
-var domstream = require('domstream')
+var domstream = require('domnode-dom')
   , input = document.querySelector('input[type=text]')
   , output = document.querySelector('div#output')
 
