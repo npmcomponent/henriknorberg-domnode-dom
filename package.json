@@ -1,29 +1,15 @@
 {
-  "name": "domnode-dom",
+  "name": "henriknorberg-domnode-dom",
+  "description": "Makes you DOM stream",
   "version": "0.0.0",
-  "description": "DOMNode streams for HTMLElements",
-  "main": "index.js",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
-  "dependencies": {
-    "domnode": "~0.0.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/chrisdickinson/domnode-dom.git"
-  },
   "keywords": [
     "domnode",
     "htmlelement",
     "streams",
     "dom"
   ],
-  "author": "Chris Dickinson",
+  "dependencies": {
+    "juliangruber-stream": "git://github.com/npmcomponent/juliangruber-stream.git"
+  },
   "license": "MIT"
 }
